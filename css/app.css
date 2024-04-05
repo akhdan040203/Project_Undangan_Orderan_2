@@ -24,11 +24,25 @@ body::-webkit-scrollbar {
     color: #ffffff !important;
 }
 
-.img-crop {
+.img-crop2 {
     width: 200px; /* Lebar gambar */
     height: 200px; /* Tinggi gambar */
     overflow: hidden; /* Mengatur overflow */
     border-radius: 50%; /* Membuat gambar menjadi bulat */
+}
+
+.img-crop2 img {
+    width: 100%; /* Membuat gambar memenuhi lebar kotak gambar */
+    height: 100%; /* Membuat gambar memenuhi tinggi kotak gambar */
+    display: block; /* Membuat gambar menjadi blok */
+    object-fit: cover; /* Menjaga proporsi gambar */
+
+}
+.img-crop {
+    width: 200px; /* Lebar gambar */
+    height: 200px; /* Tinggi gambar */
+    overflow: hidden; /* Mengatur overflow */
+    border-radius: 0; /* Membuat gambar menjadi kotak */
 }
 
 .img-crop img {
